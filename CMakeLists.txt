@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
-project(main)
+project(my_vector)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
-add_executable(main main.cpp bits/stdc++.h)
+add_executable(my_vector main.cpp MyVector.cpp MyVector.h)
